@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.RemainingApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#1a1f1f</item>
+        <item name="colorPrimaryVariant">#FFFFFF</item>
+        <item name="android:navigationBarColor">#1a1f1f</item>
+        <item name="android:colorBackground">#202626</item>
+        <item name="floatingActionButtonStyle">@style/CustomFABStyle</item>
+        <item name="cardViewStyle">@style/CustomCardViewStyle</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="CustomCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#bfe5e4</item>
+    </style>
+
+    <style name="CustomFABStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">#bfe5e4</item>
+        <item name="tint">#252d2d</item>
+    </style>
+</resources>

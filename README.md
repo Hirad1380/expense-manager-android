@@ -79,7 +79,7 @@ app/src/main/java/com/example/remainingapplication/
 ### Run the project
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/expense-manager-android.git
+git clone https://github.com/Hirad1380/expense-manager-android.git
 
 # 2. Open in Android Studio
 File → Open → select the project folder
